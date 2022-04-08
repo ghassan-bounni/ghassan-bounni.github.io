@@ -1,0 +1,48 @@
+
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 3;
+    padding: 0.7rem 1rem;
+    display: flex;
+    gap: 0.8rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a{
+    background-color: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav a.active{
+    background-color: var(--color-bg);
+    color: var(--color-white);
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
+ @media screen and (max-width: 1024px){
+nav{
+    height: fit-content;
+    flex-direction: row;
+    left:50%;
+    transform: translateX(-50%);
+    top: 90%;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+ }
+ 

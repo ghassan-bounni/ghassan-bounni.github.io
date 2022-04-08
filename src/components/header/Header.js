@@ -1,6 +1,7 @@
 import CTA from "./CTA";
 import Socials from "./Socials";
 import "./Header.css";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Ghassan El Bounni</h1>
-        <h5 className="text-light">I'm a Full Stack Developer</h5>
+        <h5 className="text-light">Full Stack Developer</h5>
         <CTA />
 
         <div className="me">
@@ -16,7 +17,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll__down">
-          Scroll Down
+          Scroll Down <AiOutlineArrowRight />
         </a>
 
         <Socials />
