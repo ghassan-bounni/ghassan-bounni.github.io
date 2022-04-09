@@ -1,7 +1,7 @@
 
 nav {
     background-color: rgba(0, 0, 0, 0.3);
-    width: max-content;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,14 +22,16 @@ nav a{
     border-radius: 50%;
     display: flex;
     font-size: 1.2rem;
+    
 }
 
 nav a:hover {
-    background-color: rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 8px var(--color-primary);
 }
 
 nav a.active{
-    background-color: var(--color-primary);
+    box-shadow: unset;
+    background-color: var(--color-primary) ;
     color: var(--color-white);
 }
 
@@ -42,7 +44,6 @@ nav{
     transform: translateX(-50%);
     top: 88%;
     border-radius: 3rem;
-    backdrop-filter: blur(15px);
 }
  }
  

@@ -36,6 +36,7 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--color-bg);
+    background: url('./assets/pw_maze_black.png') repeat fixed;
     color: var(--color-white);
     line-height: 1.7;
 }
@@ -55,7 +56,6 @@ h1{
 }
 
 section{
-    height: 100vh;
     margin-top: 8rem;
 }
 

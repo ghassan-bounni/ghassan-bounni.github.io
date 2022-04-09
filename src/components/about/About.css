@@ -1,5 +1,5 @@
 #about{
-    padding-block: 2rem;
+    height: 100vh;
 }
 
 .about__container{
@@ -13,7 +13,6 @@
 
 
 .about__me{
-    background: green;
     width: 80%;
     aspect-ratio: 1;
     border-radius: 2rem;
@@ -37,7 +36,7 @@
 .about__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 
@@ -66,12 +65,17 @@
 }
 
 .about__content p{
-margin: 2rem 0 2.6rem;
+margin: 2rem 0  2.6rem;
 color: var(--color-light);
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
+
+    #about {
+        height: 140vh;
+    }
+    
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
@@ -94,6 +98,10 @@ color: var(--color-light);
 /* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
 
+    #about{
+        height: 130vh;
+    }
+
     .about__me{
         margin: 0 auto 3rem;
     }
@@ -105,5 +113,9 @@ color: var(--color-light);
 
     .about__content p{
         margin:  1.5rem 0;
+    }
+
+    .about__container a{
+        margin: 1rem 0 2rem;
     }
 }

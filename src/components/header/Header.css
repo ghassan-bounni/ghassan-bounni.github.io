@@ -7,7 +7,6 @@ header{
 .header__container{
     text-align: center;
     height: 100%;
-    /* width:calc(100% - 5rem); */
     position: relative;
 }
 
@@ -40,11 +39,11 @@ header{
 
 .me{
     width: min(22rem,45vw);
-    height: 32rem;
+    height: min(60vh,60vw);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    border-radius:  12.1rem 12.1rem 0 0;
+    border-radius:  3rem 3rem 0 0;
     overflow: hidden;
     margin-top: 4rem;
 }
@@ -68,5 +67,10 @@ header{
 
     .header__socials, .scroll__down{
         display: none;
+    }
+
+    .header__container{
+        height: 80%;
+        
     }
 }
