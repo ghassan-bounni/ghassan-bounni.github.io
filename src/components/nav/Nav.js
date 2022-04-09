@@ -27,8 +27,8 @@ const Nav = () => {
       </a>
       <a
         href="#experience"
-        className={active === "#ecperience" ? "active" : ""}
-        onClick={() => setActive("#ecperience")}
+        className={active === "#experience" ? "active" : ""}
+        onClick={() => setActive("#experience")}
       >
         <BiBook />
       </a>

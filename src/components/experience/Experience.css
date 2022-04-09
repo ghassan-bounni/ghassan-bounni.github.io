@@ -56,20 +56,20 @@
 @media screen and (max-width: 1024px) {
 
     #experience{
-        height: 140vh;;
+        height: 140vh;
     }
-
+    
     .experience__container{
         flex-direction: column;
         width: 95%;
     }
 
     .experience__container > div {
-       padding: 2rem;
-       margin: 0 auto;
-       height: auto;
+        padding: 2rem;
+        margin: 0 auto;
+        height: auto;
     }
-
+    
     .experience__content{
         padding: 1rem;
     }
@@ -77,19 +77,31 @@
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
-
+    
     .experience__container{
         margin-top: -1rem;
         gap:1rem;
     }
-
+    
     .experience__container > div {
-       transform: scale(0.9);
-       width: 100%;
-       padding: 2rem 1rem;
+        transform: scale(0.9);
+        width: 100%;
+        padding: 2rem 1rem;
     }
-
+    
     .experience__container>div:hover {
         transform: scale(0.85);
     }
+}
+
+@media screen and (max-height: 650px) {
+    
+  
+#experience{
+    height: 160vh;
+}
+
+#experience > h5{
+   margin-top: 2rem;
+}
 }
