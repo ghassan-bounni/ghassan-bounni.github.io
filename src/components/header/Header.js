@@ -13,7 +13,7 @@ const Header = () => {
         <CTA />
 
         <div className="me">
-          <img src={require("../../assets/ghassan.jpg")} alt="me" />
+          <img src="https://i.ibb.co/41tSLkr/ghassan.jpg" alt="me" />
         </div>
 
         <a href="#contact" className="scroll__down cursive">

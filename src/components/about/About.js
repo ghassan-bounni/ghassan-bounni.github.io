@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={require("../../assets/about.jpg")} alt="me" />
+            <img src="https://i.ibb.co/r5CPVPn/about.jpg" alt="me" />
           </div>
         </div>
 
