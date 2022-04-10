@@ -1,9 +1,6 @@
-#about{
-    height: 100vh;
-}
 
 .about__container{
-    height: 100%;
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
@@ -72,10 +69,7 @@ color: var(--color-light);
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
 
-    #about {
-        height: 140vh;
-    }
-    
+
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
@@ -93,24 +87,22 @@ color: var(--color-light);
     .about__content{
         text-align: center;
     }
+    .about__cards{
+        gap:1rem;
+    }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
-
-    #about{
-        height: 130vh;
-    }
-
+    
     .about__me{
         margin: 0 auto 3rem;
     }
-
+    
     .about__cards{
         grid-template-columns: 1fr 1fr;
-        gap:1rem;
     }
-
+    
     .about__content p{
         margin:  1.5rem 0;
     }

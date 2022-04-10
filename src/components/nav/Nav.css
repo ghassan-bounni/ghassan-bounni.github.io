@@ -40,11 +40,20 @@ nav a.active{
     nav{
         height: fit-content;
         flex-direction: row;
+        justify-content: space-evenly;
         left:50%;
+        width: 60%;
         transform: translateX(-50%);
-        top: 88%;
+        top: unset;
+        bottom: 2%;
         border-radius: 3rem;
         background-color: rgba(0, 0, 0, 0.3);
     }
  }
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+    nav {
+        width: 90%;
+    }}
  
