@@ -4,7 +4,6 @@ import { BsInstagram } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
-import { waitForElementToBeRemoved } from "@testing-library/react";
 
 const Contact = () => {
   const form = useRef();
@@ -32,19 +31,35 @@ const Contact = () => {
             <BsInstagram className="contact__option__icon" />
             <h4>Instagram</h4>
             <h5>ghassanbounni</h5>
-            <a href="https://www.instagram.com/ghassanbounni/">Check Profile</a>
+            <a
+              href="https://www.instagram.com/ghassanbounni/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check Profile
+            </a>
           </article>
           <article className="contact__option">
             <BsMessenger className="contact__option__icon" />
             <h4>Messenger</h4>
             <h5>Ghassan Bounni</h5>
-            <a href="https://m.me/ghassanbounni">Send an Massege</a>
+            <a
+              href="https://m.me/100008665952513"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Send an Massege
+            </a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option__icon" />
             <h4>Whatsapp</h4>
             <h5>+961 79 149 805</h5>
-            <a href="https://api.whatsapp.com/send?phone=+96179149805">
+            <a
+              href="https://api.whatsapp.com/send?phone=+96179149805"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send an Massege
             </a>
           </article>

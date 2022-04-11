@@ -18,6 +18,13 @@
     border-radius: 1.2rem;
     text-align: center;
     border: 2px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.contact__option:hover, input:hover, textarea:hover {
+
+    box-shadow: 0px 0px 8px var(--color-primary);
+    transform: scale(1.03);
 }
 
 .contact__option__icon{
@@ -46,6 +53,7 @@ input, textarea{
     resize: none;
     background: transparent;
     color: var(--color-white);
+    transition: var(--transition);
 }
 
 @media screen and (max-width: 1024px){
