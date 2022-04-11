@@ -58,19 +58,37 @@ header{
     gap: 4px;
     position: absolute;
     right: 4rem;
-    bottom:6rem;
+    bottom:4rem;
     font-weight: 300;
     font-size: 0.9rem;
 }
 
 
 
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+    .header__socials{
+        transform: rotate(-90deg);
+    }
+    .header__socials::after{
+        display: none;
+    }
+
+    .header__socials::before{
+    content: '';
+    width: 2rem;
+    height: 1px;
+    background-color: var(--color-primary);
+
+}
+}
+
 /* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
 
-    .header__socials, .scroll__down{
-        display: none;
-    }
+   .header__socials, .scroll__down{
+       display: none;
+   }
 
     .header__container{
         height: 80%;
