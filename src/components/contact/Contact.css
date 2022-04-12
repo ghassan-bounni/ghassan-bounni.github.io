@@ -58,13 +58,15 @@ input, textarea{
 
 @media screen and (max-width: 1024px){
     .contact__container{
-        width: 50%;
+        width: 55%;
         gap: 2rem;
         grid-template-columns: 1fr;
     }
 }
-@media screen and (max-width: 600){
+
+@media screen and (max-width: 440px){
     .contact__container{
        width: var(--container-width-sm);
     }
+
 }
