@@ -1,7 +1,7 @@
 header{
     height: 100vh;
     padding-top: 6rem;
-    overflow: hidden;
+   overflow: hidden;
     position: relative;
 }
 
@@ -40,15 +40,14 @@ header{
 }
 
 .me{
-    width: min(45vw, 500px);
-    aspect-ratio: 1/1.1;
+    width: min(50vw, 280px);
     border-radius:  2.5rem;
-    overflow: hidden;
     margin-top: 4rem;
 }
 
 .me img{
     border-radius:  2.5rem;
+    /* height: min(100%,300px); */
 }
 
 .scroll__down{
@@ -64,6 +63,12 @@ header{
 }
 
 
+@media  (min-width:1050px) {
+   .me {
+         width:30vw;
+   }
+    
+}
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
@@ -96,6 +101,9 @@ header{
     }
 
     .me{
-        aspect-ratio: 1/2;
+        width: 60%;
+        
+        /* aspect-ratio: 1/1.2; */
     }
+
 }
