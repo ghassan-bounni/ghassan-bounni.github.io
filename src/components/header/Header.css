@@ -1,15 +1,16 @@
 header{
     height: 100vh;
-    padding-top: 6rem;
    overflow: hidden;
     position: relative;
+    display: grid;
+    place-items: center;
 }
 
 .header__container{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    
 }
 
 /* =========== CTA =========== */
@@ -39,7 +40,7 @@ header{
 
 }
 
-.me{
+/* .me{
     width: min(50vw, 280px);
     border-radius:  2.5rem;
     margin-top: 4rem;
@@ -47,8 +48,8 @@ header{
 
 .me img{
     border-radius:  2.5rem;
-    /* height: min(100%,300px); */
-}
+    /* height: min(100%,300px); 
+} */
 
 .scroll__down{
     transform: rotate(90deg);
@@ -63,17 +64,18 @@ header{
 }
 
 
-@media  (min-width:1050px) {
+/* @media  (min-width:1050px) {
    .me {
          width:30vw;
    }
     
-}
+} */
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
     .header__socials{
         transform: rotate(-90deg);
+        left: 3rem;
     }
     .header__socials::after{
         display: none;
@@ -95,15 +97,15 @@ header{
        display: none;
    }
 
-    .header__container{
+    /* .header__container{
         height: 80%;
         
-    }
+    } */
 
-    .me{
+    /* .me{
         width: 60%;
         
-        /* aspect-ratio: 1/1.2; */
-    }
+        /* aspect-ratio: 1/1.2; 
+    } */
 
 }
