@@ -47,6 +47,13 @@ const Experience = () => {
                 <small className="text-ligth">Experienced</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experienced__details__icon" />
+              <div>
+                <h4>Vue</h4>
+                <small className="text-ligth">Beginner</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* ==== BACKEND ==== */}
@@ -71,14 +78,14 @@ const Experience = () => {
               <BsPatchCheckFill className="experienced__details__icon" />
               <div>
                 <h4>Java</h4>
-                <small className="text-ligth">advanced</small>
+                <small className="text-ligth">Advanced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experienced__details__icon" />
               <div>
                 <h4>Laravel</h4>
-                <small className="text-ligth">Beginner</small>
+                <small className="text-ligth">Advanced</small>
               </div>
             </article>
             <article className="experience__details">

@@ -3,31 +3,42 @@ import amazon from "../../assets/clone-2e265.png";
 import WinnerForce from "../../assets/winnerforceclone.png";
 import calc from "../../assets/calculator.png";
 import pomodoro from "../../assets/pomodoro.png";
+import blogPost from "../../assets/blog-post.png";
 
 const data = [
   {
     id: 1,
+    title: "Personal Blog Post",
+    description: "Built with Laravel , Blade and Alpine.js",
+    img: blogPost,
+    source: "https://github.com/ghassan-bounni/example-app",
+    demo: "",
+  },
+  {
+    id: 2,
     title: "Amazon Clone",
     img: amazon,
+    description: "Built with React , Redux and Mui",
     source: "https://github.com/ghassan-bounni/Amazon-Clone",
     demo: "https://clone-2e265.web.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "WinnerForce Clone",
     img: WinnerForce,
+    description: "Built with React and Redux",
     source: "",
     demo: "https://winnerforceclone.web.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Calculator",
     img: calc,
     source: "https://codepen.io/ghassanb12/pen/JjywoPr",
     demo: "https://cdpn.io/pen/debug/JjywoPr?authentication_hash=RBrOJbeLOYYM",
   },
   {
-    id: 4,
+    id: 5,
     title: "Pomodoro Clock",
     img: pomodoro,
     source: "https://codepen.io/ghassanb12/pen/dyzwEro",
@@ -48,6 +59,16 @@ const Portfolio = () => {
                 <img src={item.img} alt={item.title} />
               </div>
               <h3>{item.title}</h3>
+              <small
+                className="text-light"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginBlock: "1em",
+                }}
+              >
+                {item.description}
+              </small>
               <div className="portfolio__item__cta">
                 <a
                   href={item.source}
