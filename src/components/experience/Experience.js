@@ -97,6 +97,54 @@ const Experience = () => {
             </article>
           </div>
         </div>
+        {/* ==== ML  ==== */}
+        <div className="experience__backend ">
+          <h3>Machine Learning</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experienced__details__icon" />
+              <div>
+                <h4>Python</h4>
+                <small className="text-ligth">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experienced__details__icon" />
+              <div>
+                <h4>Tensorflow / Keras</h4>
+                <small className="text-ligth">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experienced__details__icon" />
+              <div>
+                <h4>Docker</h4>
+                <small className="text-ligth">Advanced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experienced__details__icon" />
+              <div>
+                <h4>Flask</h4>
+                <small className="text-ligth">Advanced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experienced__details__icon" />
+              <div>
+                <h4>mlFlow</h4>
+                <small className="text-ligth">Advanced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experienced__details__icon" />
+              <div>
+                <h4>AWS</h4>
+                <small className="text-ligth">Intermediate</small>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   );

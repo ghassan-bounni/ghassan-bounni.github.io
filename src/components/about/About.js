@@ -29,7 +29,7 @@ const About = () => {
               <article className="about__card">
                 <FaAward className="about__icon" />
                 <h5>Experience</h5>
-                <small>1+ Years of projects</small>
+                <small>2+ Years of projects</small>
               </article>
             </Tilt>
             <Tilt
@@ -55,14 +55,15 @@ const About = () => {
               <article className="about__card">
                 <VscFolderLibrary className="about__icon" />
                 <h5>Projects</h5>
-                <small>8+ personal projects</small>
+                <small>10+ personal projects</small>
               </article>
             </Tilt>
           </div>
           <p>
-            I am a Full Stack Web Developer with a passion for creating web and
-            mobile applications, I have a strong background in web development
-            and have worked with a wide range of technologies.
+            I am a software engineer with a passion for Ai and Machine Learning,
+            seeking to apply and expand my knowledge and skills toward working
+            in a collaborative environment to develop quality software solutions
+            and solve business problems.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
