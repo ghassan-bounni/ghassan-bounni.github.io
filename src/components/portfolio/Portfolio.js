@@ -1,13 +1,29 @@
 import "./Portfolio.css";
 import amazon from "../../assets/clone-2e265.png";
 import WinnerForce from "../../assets/winnerforceclone.png";
-import calc from "../../assets/calculator.png";
-import pomodoro from "../../assets/pomodoro.png";
 import blogPost from "../../assets/blog-post.png";
+import RooFinder from "../../assets/Roofinder.png";
+import enfrTranslator from "../../assets/enfr-translator.png";
 
 const data = [
   {
     id: 1,
+    title: "RooFinder",
+    description: "Built with React and Flask, (MaskRCNN, VGG16)",
+    img: RooFinder,
+    source: "https://github.com/ghassan-bounni/RooFinder",
+    demo: "http://roofinder.herokuapp.com/",
+  },
+  {
+    id: 2,
+    title: "En Fr Translator",
+    description: "Built with Flask, (Encoder-Decoder Bidirectional LSTM)",
+    img: enfrTranslator,
+    source: "https://github.com/ghassan-bounni/En_Fr_Translator",
+    demo: "https://enfr-translator.herokuapp.com/",
+  },
+  {
+    id: 3,
     title: "Personal Blog Post",
     description: "Built with Laravel , Blade and Alpine.js",
     img: blogPost,
@@ -15,7 +31,7 @@ const data = [
     demo: "",
   },
   {
-    id: 2,
+    id: 4,
     title: "Amazon Clone",
     img: amazon,
     description: "Built with React , Redux and Mui",
@@ -23,26 +39,12 @@ const data = [
     demo: "https://clone-2e265.web.app",
   },
   {
-    id: 3,
+    id: 5,
     title: "WinnerForce Clone",
     img: WinnerForce,
     description: "Built with React and Redux",
     source: "",
     demo: "https://winnerforceclone.web.app",
-  },
-  {
-    id: 4,
-    title: "Calculator",
-    img: calc,
-    source: "https://codepen.io/ghassanb12/pen/JjywoPr",
-    demo: "https://cdpn.io/pen/debug/JjywoPr?authentication_hash=RBrOJbeLOYYM",
-  },
-  {
-    id: 5,
-    title: "Pomodoro Clock",
-    img: pomodoro,
-    source: "https://codepen.io/ghassanb12/pen/dyzwEro",
-    demo: "https://cdpn.io/pen/debug/dyzwEro?authentication_hash=dXMqBqbWpNKr",
   },
 ];
 const Portfolio = () => {

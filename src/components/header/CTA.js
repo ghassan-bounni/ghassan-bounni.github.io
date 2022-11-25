@@ -1,4 +1,4 @@
-import CV from "../../assets/Ghassan_El_bounni_cv.docx";
+import CV from "../../assets/Ghassan_El_Bounni_cv.pdf";
 const CTA = () => {
   return (
     <div className="cta">

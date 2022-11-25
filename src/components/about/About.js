@@ -3,6 +3,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import Tilt from "react-parallax-tilt";
+import ProfilePic from "../../assets/ghassan.jpg";
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src="https://i.ibb.co/r5CPVPn/about.jpg" alt="me" />
+            <img src={ProfilePic} alt="me" />
           </div>
         </div>
 
